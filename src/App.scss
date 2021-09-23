@@ -1,0 +1,254 @@
+.Tomei, .Form, .Lesstext, .getCount, .hookExample, .useContext, .ComponentLifecycle, .show-btn, .Challenges {
+  max-width: 850px;
+  margin: 0 auto;
+  font-family: "Circular-Loom";
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  text-align: center;
+  padding: 0 1em;
+  margin: 3em 0 1em 0;
+  img {
+    width: 280px;
+  }
+}
+
+.mySteps {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  padding: 0 1em;
+  .step-by-step {
+    display: flex;
+    position: relative;
+    .step-item {
+      text-align: center;
+      width: 170px;
+      h4, p {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 16px;
+        color: #000;
+      }
+      p {
+        margin: 0;
+      }
+      h4 {
+        margin: 0 0 10px 0;
+      }
+      &:hover {
+        h4, p {
+          color: #006bce;
+        }
+      }
+    }
+    &:last-child {
+      .rowImg {
+        display: none;
+      }
+    }
+    .rowImg {
+      position: absolute;
+      width: 110px;
+      left: 120px;
+      top: 31px;
+    }
+  }
+}
+
+.create-account__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33px;
+  background-color: #C5DCFA;
+
+  h3 {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0;
+  }
+}
+
+.create-account__info {
+  p {
+    font-size: 16px;
+    padding: 0 2em;
+    text-align: justify;
+    margin: 1.5em 0;
+  }
+}
+
+.login {
+  display: flex;
+  .user-img {
+    width: 30%;
+    text-align: center;
+    img {
+      margin-top: 1em;
+    }
+    p {
+      font-weight: bold;
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+  .user-form {
+    width: 70%;
+    .myForm {
+      display: flex;
+      flex-wrap: wrap;
+      .form-input {
+        width: 46%;
+        padding: 10px;
+        margin-top: 0.5em;
+        p {
+          font-size: 16px;
+          text-transform: uppercase;
+          margin: 0 0 5px 0;
+          color: #c7c7c7;
+        }
+        input {
+          border: 1px solid #c7c7c7;
+          height: 35px;
+          border-radius: 10px;
+          width: 90%;
+          padding:  0 10px;
+        }
+      }
+    }
+  }
+}
+
+.next {
+  padding: 0 2.5em 0 2em;
+  text-align: -webkit-right;
+  margin-top: 2em;
+  button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #0a3977;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: unset;
+    background-color: #c5dcfa;
+    border-radius: 7px;
+    padding: 12px 25px;
+    width: 200px;
+    justify-content: space-around;
+  }
+}
+
+.Lesstext {
+  max-width: 850px;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.getCount {
+  max-width: 850px;
+  margin: 0 auto;
+  margin-top: 3em;
+  border: 1px solid #c5dcfa;
+  padding: 1em;
+  input {
+    border: 1px solid #c7c7c7;
+    height: 35px;
+    border-radius: 10px;
+    width: 320px;
+    padding:  0 10px;
+  }
+}
+
+.hookExample {
+  max-width: 850px;
+  margin: 0 auto;
+  margin-top: 3em;
+  border: 1px solid #c5dcfa;
+  padding: 1em;
+    input {
+      border: 1px solid #c7c7c7;
+      height: 35px;
+      border-radius: 10px;
+      width: 320px;
+      padding: 0 10px;
+    }
+}
+
+.useContext {
+  max-width: 850px;
+  margin: 0 auto;
+  margin-top: 3em;
+  border: 1px solid #c5dcfa;
+  padding: 1em;
+}
+
+.ComponentLifecycle {
+  max-width: 850px;
+  margin: 0 auto;
+  margin-top: 2em;
+  border: 1px solid #c5dcfa;
+  padding: 1em;
+    input {
+      border: 1px solid #c7c7c7;
+      height: 35px;
+      border-radius: 10px;
+      width: 320px;
+      padding: 0 10px;
+    }
+}
+
+.show-btn {
+    max-width: 880px;
+    margin: 2em auto 0 auto;
+    font-family: "Circular-Loom";
+    button {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      color: #0a3977;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: unset;
+      background-color: #c5dcfa;
+      border-radius: 7px;
+      padding: 12px 25px;
+      width: 200px;
+      justify-content: space-around;
+    }
+}
+
+.Challenges {
+  max-width: 880px;
+  margin: 2em auto 0 auto;
+  font-family: "Circular-Loom";
+  textarea {
+    padding: 1em;
+    border: 1px solid #c7c7c7;
+    height: 35px;
+    border-radius: 10px;
+    width: 320px;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #0a3977;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: unset;
+    background-color: #c5dcfa;
+    border-radius: 7px;
+    padding: 12px 25px;
+    width: 200px;
+    justify-content: space-around;
+    margin-top: 1.5em;
+  }
+}

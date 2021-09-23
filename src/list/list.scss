@@ -1,0 +1,86 @@
+.List {
+  font-family: "Circular-Loom";
+  max-width: 850px;
+  margin: 0 auto;
+  form {
+    display: flex;
+    position: relative;
+    button {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      color: #0a3977;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: unset;
+      background-color: #c5dcfa;
+      border-radius: 7px;
+      padding: 9px 25px;
+      width: 140px;
+      justify-content: space-around;
+      position: absolute;
+      right: 0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    input {
+      border: 1px solid #c7c7c7;
+      height: 35px;
+      border-radius: 10px;
+      width: 100%;
+      padding:  0 10px;
+    }
+  }
+}
+
+.listitem { 
+  margin-top: 1.5em;
+  div {
+    width: 340px;
+    margin: 10px 0;
+    position: relative;
+    padding:  5px 0;
+    label {     
+      display: flex;
+      align-items: center;
+      button {
+        align-items: center;
+        font-size: 16px;
+        color: #0a3977;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: unset;
+        background-color: #c5dcfa;
+        border-radius: 7px;
+        padding: 7px 11px;
+        justify-content: space-around;
+        position: absolute;
+        right: 0;
+      }
+    }
+  }
+}
+
+.todoFooter {
+  margin-top: 1.5em;
+  width: 340px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  button {
+      align-items: center;
+      font-size: 13px;
+      color: #0a3977;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: unset;
+      background-color: #c5dcfa;
+      border-radius: 7px;
+      padding: 11px 25px;
+      width: 140px;
+      justify-content: space-around;
+      position: absolute;
+      right: 0;
+      min-width: max-content;
+  }
+}

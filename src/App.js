@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { useState } from 'react';
+import './list/list.scss';
+import Tomei from './Tomei';
+import Form from './Form';
+import Lesstext from './Lesstext';
+import List from './list/List';
+import GetCount from './GetCount';
+import HookExample from './HookExample';
+import UseContext from './UseContext';
+import ComponentLifecycle  from './CompenentLifecycle';
+import Challenges from './somethingNew/Challenges';
 
 function App() {
+
+  const [show, setShow] = useState(true);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Tomei />
+      <Form />
+      <Lesstext text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a
+          type specimen book. It has survived not only five centuries, but also
+          the leap into electronic typesetting, remaining essentially unchanged. 
+          It was popularised in the 1960s with the release of Letraset sheets 
+          containing Lorem Ipsum passages, and more recently with desktop publishing
+          software like Aldus PageMaker including versions of Lorem Ipsum."
+          max={40}/>
+      <List />
+      <GetCount />
+      <HookExample />
+      <UseContext />
+      <div className="show-btn">
+        <button onClick={() => setShow(!show)}>Click me</button>
+      </div>
+      
+      {
+        show === true ?  <ComponentLifecycle /> : null
+      }
+       
+      <Challenges />
     </div>
   );
 }
